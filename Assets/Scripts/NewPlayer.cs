@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class NewPlayer : PhysicsObject
@@ -72,6 +73,11 @@ public class NewPlayer : PhysicsObject
             //start coroutine
             StartCoroutine(ActivateAttack());
         }
+
+        if (health <= 0)
+        {
+            Die();
+        }
         
         
     }
@@ -88,8 +94,12 @@ public class NewPlayer : PhysicsObject
     public void UpdateUI()
     {
         coinsText.text = coinsCollected.ToString();
-
         healthBar.rectTransform.sizeDelta = new Vector2(healthBarOrigSize.x * ((float)health / (float)maxHealth), healthBarOrigSize.y);
+    }
+
+    public void Die()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void AddInventoryItem(string inventoryName, Sprite image = null)
