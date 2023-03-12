@@ -119,7 +119,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6198323403895660273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84f20141d8e77834091c15b02df8ee09, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ee5958d4c7b9344aa829660ca4e5421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 1
+  inventoryStringName: Health
+  inventorySprite: {fileID: -5441326450484041120, guid: d5c06bbfa3bea3141b42854d2986b1d5, type: 3}

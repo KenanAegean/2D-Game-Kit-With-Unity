@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4388793640915756463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 780ce80ccaf8622498d38a8fa09672c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 2de25b7a47ec1c440a58e27662efd9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredInventoryItemString: key1
+  requiredInventoryItemString: Key

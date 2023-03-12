@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4590980194347773460}
   - component: {fileID: 4590980194347773463}
   m_Layer: 0
-  m_Name: BuildingForeGround
+  m_Name: BuildingForeground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4590980194347773457}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.43, y: -3.1, z: 0}
   m_LocalScale: {x: 1.9035, y: 3.1750607, z: 1}
   m_Children: []
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -6224998327689637112, guid: d5c06bbfa3bea3141b42854d2986b1d5, type: 3}
-  m_Color: {r: 0.1473834, g: 0.26616827, b: 0.4528302, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

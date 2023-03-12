@@ -119,9 +119,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2127236166956916678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84f20141d8e77834091c15b02df8ee09, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ee5958d4c7b9344aa829660ca4e5421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 3
-  inventoryStringName: key1
+  inventoryStringName: Key
   inventorySprite: {fileID: 512428429274198855, guid: d3f8a18fb0e809a4fbdb1d79cc293264, type: 3}

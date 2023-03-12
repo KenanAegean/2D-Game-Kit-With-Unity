@@ -1,27 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class AttackBox : MonoBehaviour
+public class SceneLoadTrigger : MonoBehaviour
 {
+    [SerializeField] private string loadSceneString;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-       //If I touch an enemy, hurt the enemy! 
-       if(col.gameObject.GetComponent<Enemy>())
+        if (col.gameObject == NewPlayer.Instance.gameObject)
         {
-            col.gameObject.GetComponent<Enemy>().health -= NewPlayer.Instance.attackPower;
+            SceneManager.LoadScene(loadSceneString);
+            NewPlayer.Instance.SetSpawnPosition();
         }
     }
 }

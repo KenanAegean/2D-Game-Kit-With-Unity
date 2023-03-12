@@ -1,8 +1,6 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-//The following script was sourced from Unity's Platformer tutorial here: https://learn.unity.com/tutorial/live-session-2d-platformer-character-controller
 
 public class PhysicsObject : MonoBehaviour
 {
@@ -112,4 +110,5 @@ public class PhysicsObject : MonoBehaviour
 
         rb2d.position = rb2d.position + move.normalized * distance;
     }
+
 }
